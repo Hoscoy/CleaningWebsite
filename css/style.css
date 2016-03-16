@@ -148,6 +148,13 @@ nav h3 {
  	 background-image: url("../images/blockConstruction.jpg");
  }
 
+/*********** MAX WIDTH SETTING *********/
+
+.maxPageWidth {
+	max-width: 1100px;
+	margin: auto;
+}
+
 /*********** INFO JANITORIAL *********/
 
 #janitorialServices {
@@ -155,6 +162,7 @@ nav h3 {
 	border-image-width: 100%;
 	font-family: palanquin;
     font-weight: lighter;
+    padding-bottom: 50px;
 }
 
 #janitorialServices span {
@@ -168,34 +176,77 @@ nav h3 {
 	color: #444444;
 	font-style: strong;
 	font-family: roboto slab;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #janitorialServices p {
-	font-size: 25px;
+	font-size: 21px;
 	color: #363636;
-	margin: 0px 50px;
+	margin: 0px 20px;
+	line-height: 35px;
 }
 
 #janitorialServices ul {
 	font-size: 20px;
     color: #363636;
-    margin: 10px 150px 10px;
-    line-height: 35px;
+    margin: 0px 80px;
+    line-height: 30px;
+    list-style-type: circle;
 }
 
 #janitorialServices h3 {
-	font-size: 20px;
-	color: #363636;
-	margin: 30px 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5AB322;
+    margin: 30px 20px;
 }
 
 /*********** Commercial Cleaning *********/
 
 #commercialCleaning {
-	background-color: #0073e5;
+	background-color: #99c7f4;
 	border-image-width: 100%;
+	font-family: palanquin;
+    font-weight: lighter;
+    padding-bottom: 50px;
 }
+
+#commercialCleaning span {
+	color: #fff;
+}
+
+#commercialCleaning h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	color: #444444;
+	font-style: strong;
+	font-family: roboto slab;
+	margin-bottom: 30px;
+}
+
+#commercialCleaning p {
+	font-size: 21px;
+	color: #222222;
+	margin: 0px 20px;
+	line-height: 35px;
+}
+
+#commercialCleaning ul {
+	font-size: 20px;
+    color: #363636;
+    margin: 0px 80px;
+    line-height: 30px;
+    list-style-type: circle;
+}
+
+#commercialCleaning h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 20px;
+}
+
 
 /*********** Home & Apartment Cleaning *********/
 
