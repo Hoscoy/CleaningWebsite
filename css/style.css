@@ -1,7 +1,212 @@
 /*
-Project Name: StartUp Matchmaker
+Project Name: Cleaning Website
 Author: Esmeralda Hoscoy
 Developer @GA in NYC
 */
 
 /*********** HEADER AREA *********/
+
+header {
+	background-color: #fff;
+	height: 100%;
+	overflow: hidden;
+	background-image: url("../images/knoxville.jpg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+
+nav {
+	margin: 20px auto; 
+	width: 100%;
+}
+
+nav a {
+	font-size: 25px;
+	color: #5ab322;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: palanquin;
+	font-weight: lighter;
+	word-spacing: 15px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	background-color: green;
+}
+
+nav a:first-child {
+	width: 40%;
+	background-color: #fff;
+}
+
+nav h3 {
+	font-size: 40px;
+	color: #fff;
+	margin: 100px 400px;
+	font-weight: strong;
+	font-family: roboto slab;
+	text-align: center;
+}
+
+/*********** callToAction *********/
+
+.callToAction {
+	background-color: #dcdcdc;
+	padding: 25px;
+	text-align: center;
+	font-family: palanquin;
+	font-size: 25px;
+	font-weight: strong;
+	font-style: italic;
+	color: #5AB322;
+}
+
+/*********** BODY AREA *********/
+
+/*********** businessInfo *********/
+
+.businessInfo {
+	background-color: #fff;
+	padding: 20px; 
+	font-size: 20px;
+	line-height: 35px;
+	border: 4px solid #c6c6c6;
+	max-width: 350px;
+	margin: 50px 50px 50px 80px;
+	display: inline-block;
+	width: 30%;
+}
+
+.businessInfo h4 {
+	color: #444444;
+	font-size: 30px;
+	font-style: strong;
+	font-family: roboto slab;
+}
+
+.businessInfo span {
+	color: #5AB322;
+}
+
+.businessInfo p {
+	margin: 30px 0px 0px 5px;
+	color: #8e8e8e;
+	text-align: center;
+}
+
+/*********** businessInfo 4 BLOCK AREA *********/
+
+ .businessInfoBlock {
+	display: inline-block;
+	width: 55%;
+	vertical-align: top;
+	margin-top: 70px;
+}
+ 
+ .businessInfoBlock a {
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+	background-size: 310px 200px;
+ 	background-repeat: no-repeat;
+ 	text-transform: uppercase;
+	text-decoration: none;
+	font-family: roboto slab;
+	color: #363636;
+	margin-bottom: 60px;
+	margin-left: 50px;
+	position: relative;
+	box-shadow: 0px 0px 35px -4px rgba(0,0,0,0.6);
+}
+
+ .businessInfoBlock span {
+ 	font-size: 20px;
+ 	display: block;
+ 	text-align: center;
+ 	position: absolute;
+ 	width: 100%;
+ 	bottom: 10px;
+ 	background-color: rgba(255, 255, 255, 0.4);
+ 	padding: 5px 0;
+ }
+
+ .businessInfoBlock .janitorial {
+ 	background-image: url("../images/blockJanitorial.jpg");
+ }
+
+ .businessInfoBlock .commercial {
+ 	background-image: url("../images/blockCommercial.jpg");
+ }
+
+ .businessInfoBlock .home {
+ 	background-image: url("../images/blockHome.jpg");
+ }
+ 
+ .businessInfoBlock .construction {
+ 	 background-image: url("../images/blockConstruction.jpg");
+ }
+
+/*********** INFO JANITORIAL *********/
+
+#janitorialServices {
+	background-color: #dcdcdc;
+	border-image-width: 100%;
+	font-family: palanquin;
+    font-weight: lighter;
+}
+
+#janitorialServices span {
+	color: #5AB322;
+}
+
+#janitorialServices h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	color: #444444;
+	font-style: strong;
+	font-family: roboto slab;
+	margin-bottom: 20px;
+}
+
+#janitorialServices p {
+	font-size: 25px;
+	color: #363636;
+	margin: 0px 50px;
+}
+
+#janitorialServices ul {
+	font-size: 20px;
+    color: #363636;
+    margin: 10px 150px 10px;
+    line-height: 35px;
+}
+
+#janitorialServices h3 {
+	font-size: 20px;
+	color: #363636;
+	margin: 30px 50px;
+}
+
+/*********** Commercial Cleaning *********/
+
+#commercialCleaning {
+	background-color: #0073e5;
+	border-image-width: 100%;
+}
+
+/*********** Home & Apartment Cleaning *********/
+
+#homeApartmentCleaning {
+	background-color: #5AB322;
+	border-image-width: 100%;
+}
+
+/*********** Construction Clean-Up *********/
+
+#constructionCleanUp {
+	background-color: #5f5f5f;
+	border-image-width: 100%;
+}
