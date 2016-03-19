@@ -24,7 +24,7 @@ nav {
 
 nav a {
 	font-size: 25px;
-	color: #5ab322;
+	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: palanquin;
@@ -33,7 +33,7 @@ nav a {
 	display: inline-block;
 	width: 15%;
 	text-align: center;
-	background-color: green;
+	background-color: #5AB322;
 }
 
 nav a:first-child {
@@ -53,7 +53,7 @@ nav h3 {
 /*********** callToAction *********/
 
 .callToAction {
-	background-color: #dcdcdc;
+	background-color: #ececec;
 	padding: 25px;
 	text-align: center;
 	font-family: palanquin;
@@ -158,22 +158,22 @@ nav h3 {
 /*********** INFO JANITORIAL *********/
 
 #janitorialServices {
-	background-color: #dcdcdc;
+	background-color: #ececec;
 	border-image-width: 100%;
 	font-family: palanquin;
     font-weight: lighter;
     padding-bottom: 50px;
 }
 
-#janitorialServices span {
+/*#janitorialServices span {
 	color: #5AB322;
-}
+}*/
 
 #janitorialServices h2 {
 	font-size: 40px;
 	text-align: center;
 	padding-top: 40px;
-	color: #444444;
+	color: #5AB322;
 	font-style: strong;
 	font-family: roboto slab;
 	margin-bottom: 30px;
@@ -253,11 +253,105 @@ nav h3 {
 #homeApartmentCleaning {
 	background-color: #5AB322;
 	border-image-width: 100%;
+	font-family: palanquin;
+    font-weight: lighter;
+    padding-bottom: 50px;
 }
+
+#homeApartmentCleaning span {
+	color: #fff;
+}
+
+#homeApartmentCleaning h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	color: #444444;
+	font-style: strong;
+	font-family: roboto slab;
+	margin-bottom: 30px;
+}
+
+#homeApartmentCleaning h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 20px;
+}
+
+#homeApartmentCleaning p {
+	font-size: 21px;
+	color: #222222;
+	margin: 0px 20px;
+	line-height: 35px;
+	padding-bottom: 10px;
+}
+
+#homeApartmentCleaning ul {
+	font-size: 20px;
+    color: #363636;
+    margin: 0px 80px;
+    line-height: 30px;
+    list-style-type: circle;
+    margin-bottom: 25px;
+}
+
 
 /*********** Construction Clean-Up *********/
 
 #constructionCleanUp {
 	background-color: #5f5f5f;
 	border-image-width: 100%;
+	font-family: palanquin;
+    font-weight: lighter;
+    padding-bottom: 50px;
 }
+
+#constructionCleanUp span {
+	color: #fff;
+}
+
+#constructionCleanUp h2 {
+	font-size: 40px;
+	text-align: center;
+	padding-top: 40px;
+	color: #444444;
+	font-style: strong;
+	font-family: roboto slab;
+	margin-bottom: 30px;
+}
+
+#constructionCleanUp h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 20px;
+}
+
+#constructionCleanUp p {
+	font-size: 21px;
+	color: #222222;
+	margin: 0px 20px;
+	line-height: 35px;
+	padding-bottom: 10px;
+}
+
+ #constructionCleanUp ul {
+	font-size: 20px;
+    color: #363636;
+    margin: 0px 80px;
+    line-height: 30px;
+    list-style-type: circle;
+    margin-bottom: 25px;
+}
+/*********** CLIENT FORM *********/
+
+form {
+	position: relative;
+	width: 740px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+
+
