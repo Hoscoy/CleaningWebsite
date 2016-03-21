@@ -2,19 +2,22 @@
 <html>
 <head>
 	<title>SOS Cleaning Services </title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Palanquin:400,700,100|Roboto+Slab:400,100,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<nav>
+		<a href="#">SOS CLEANING<div><span></span><span></span><span></span></div></a><a href="#janitorialServices">janitorial</a><a href="#commercialCleaning">commercial</a><a href="#homeApartmentCleaning">residential</a><a href="#constructionCleanUp">construction</a>
+	</nav>
 	<header>
-			<nav>
-				<a href="#" class="logo">SOS CLEANING</a><a href="#janitorialServices">janitorial</a><a href="#commercialCleaning">commercial</a><a href="#homeApartmentCleaning">home</a><a href="#constructionCleanUp">construction</a>
-			<h3>Cleaning services throughout Knoxville</h3>
-			</nav>
+		<h3>Cleaning services throughout Knoxville</h3>
 	</header>
 	<section class="callToAction">
-		<p>Make SOS a part of your team today! Call us at 999.999.999</p>
+		<p>Make SOS a part of your team today! Call us at <a href="tel:999999999">999.999.999</a></p>
 	</section>
 	
 	<div class="businessInfo">
@@ -22,7 +25,7 @@
 			<p>Whether you own or run a large business or small business in Knoxville, the right commercial cleaning business can help you maintain your offices and take your company to the next level. SOS Cleaning is a top provider of commercial cleaning. Knoxville companies can hire us with the confidence that we will be able to meet all of your commercial building cleaning and office cleaning services needs professionally, affordably, and efficiently.</p>
 	</div>
 	<div class="businessInfoBlock">
-		<a href="#janitorialServices" class="janitorial"><span>Janitorial</span></a><a href="#commercialCleaning" class="commercial"><span>Commercial</span></a><a href="#homeApartmentCleaning" class="home"><span>Home</span></a><a href="#constructionCleanUp" class="construction"><span>Construction</span></a>
+		<a href="#janitorialServices" class="janitorial"><span>Janitorial</span></a><a href="#commercialCleaning" class="commercial"><span>Commercial</span></a><a href="#homeApartmentCleaning" class="home"><span>Residential</span></a><a href="#constructionCleanUp" class="construction"><span>Construction</span></a>
 	</div>
 
 	<div id="janitorialServices">
@@ -99,32 +102,39 @@
 	</div>
 	
 	<form method='post'>
+		<p>Request An Estimate</p>
+		
+		<div>
+			<label for="firstName">First Name:</label>
+		  	<input type="text" name="firstName" id="firstName">
+		  	<label for="lastName"> Last Name:</label>
+		  	<input type="text" name="lastName" id="lastName">
+		</div>
 
-	<h3>Request An Estimate</h3>
-		<label for="firstName">First Name:</label>
-	  	<input type="text" name="firstName" id="firstName">
-	 
-	  	<label for="lastName"> Last Name:</label>
-	  	<input type="text" name="lastName" id="lastName">
+		<div>
+		  	<label for="email">Email:</label>
+		  	<input type="email" email="email" id="email">
+		  	<label for="phone">Phone:</label>
+		  	<input type="phone" email="phone" id="phone">
+		</div>
+		 
+		 <p>What type of service are you seeking?</p>
+		
+		<div> 
+		  	<label><input type="checkbox" name="serviceType" value="Janitorial"/> janitorial</label>
+		    <label><input type="checkbox" name="serviceType" value="commercial"/> commercial</label>
+		    <label><input type="checkbox" name="serviceType" value="home"/> home</label>
+		    <label><input type="checkbox" name="serviceType" value="construction"/> construction</label>
+		</div>
 
-	  	<label for="email">Email:</label>
-	  	<input type="email" email="email" id="email">
-	 
-	  	<label for="phone">phone:</label>
-	  	<input type="phone" email="phone" id="phone">
-	 
-	  	<p>What type of service are you seeking?</p>
-	  	
-	  	<label><input type="checkbox" name="serviceType" value="Janitorial"/> janitorial</label>
-	    <label><input type="checkbox" name="serviceType" value="commercial"/> commercial</label>
-	    <label><input type="checkbox" name="serviceType" value="home"/> home</label>
-	    <label><input type="checkbox" name="serviceType" value="construction"/> construction</label>
-
-    	<input type="submit" value="submit">
-</form>
+	    	<input type="submit" value="submit">	    
+	</form>
 
 	<div id="aboutUs">
-		<p>Home Maid Cleaning Service is located in Knoxville, Tennessee and is locally owned and operated. We serve the entire Knoxville County area and its surrounding counties.<br>SOS Cleaning is committed to delivering the personal services our commercial and residential customers want, listening closely to their expectations, taking a proactive approach in defining their needs and building the best partnering relationship possible.<br>We are committed to acting with honesty and integrity at all times in all aspects of our business to being professional in doing our job and to delivering a consistent, high-level quality of work that meets or exceeds our customers’ expectations. 
+		<h4>About <span>Our Company</span></h4>
+		<p>Home Maid Cleaning Service is located in Knoxville, Tennessee and is locally owned and operated. We serve the entire Knoxville County area and its surrounding counties.</p>
+		<p>SOS Cleaning is committed to delivering the personal services our commercial and residential customers want, listening closely to their expectations, taking a proactive approach in defining their needs and building the best partnering relationship possible.</p>
+		<p>We are committed to acting with honesty and integrity at all times in all aspects of our business to being professional in doing our job and to delivering a consistent, high-level quality of work that meets or exceeds our customers’ expectations. 
 		</p>
 	</div>
 <footer>
