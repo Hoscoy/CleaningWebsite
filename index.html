@@ -11,13 +11,14 @@
 </head>
 <body>
 	<nav>
-		<a href="#">SOS CLEANING<div><span></span><span></span><span></span></div></a><a href="#janitorialServices">janitorial</a><a href="#commercialCleaning">commercial</a><a href="#homeApartmentCleaning">residential</a><a href="#constructionCleanUp">construction</a>
+		<a href="#">SOS CLEANING</a><a href="#janitorialServices">janitorial</a><a href="#commercialCleaning">commercial</a><a href="#homeApartmentCleaning">residential</a><a href="#constructionCleanUp">construction</a>
+		<div id="hamburger"><span></span><span></span><span></span></div>
 	</nav>
 	<header>
 		<h3>Cleaning services throughout Knoxville</h3>
 	</header>
 	<section class="callToAction">
-		<p>Make SOS a part of your team today! Call us at <a href="tel:999999999">999.999.999</a></p>
+		<p>Make SOS a part of your team today! Call us at <a href="tel:999999999">865.776.9999</a></p>
 	</section>
 	
 	<div class="businessInfo">
@@ -50,7 +51,7 @@
 	</div>
 	<div id="commercialCleaning">
 		<div class="maxPageWidth">
-			<h2>Commercial<span>Cleaning</span></h2>
+			<h2>Commercial <span>Cleaning</span></h2>
 			<p>SOS Cleaning offers professional commercial cleaning services to businesses in the Knoxville County area. Our goal is to make your facility a pristine environment for business. Leaving the cleaning to us will be one less thing your company will have to worry about and will allow your employees to increase their productivity.</p>
 			<h3>Commercial services include:</h3>
 			<ul>
@@ -102,32 +103,33 @@
 	</div>
 	
 	<form method='post'>
-		<p>Request An Estimate</p>
-		
+		<h3>Request An Estimate</h3>
+
 		<div>
 			<label for="firstName">First Name:</label>
-		  	<input type="text" name="firstName" id="firstName">
-		  	<label for="lastName"> Last Name:</label>
-		  	<input type="text" name="lastName" id="lastName">
+			<input type="text" name="firstName" id="firstName">
 		</div>
-
 		<div>
-		  	<label for="email">Email:</label>
-		  	<input type="email" email="email" id="email">
-		  	<label for="phone">Phone:</label>
-		  	<input type="phone" email="phone" id="phone">
+			<label for="lastName"> Last Name:</label>
+			<input type="text" name="lastName" id="lastName">
 		</div>
-		 
-		 <p>What type of service are you seeking?</p>
-		
-		<div> 
-		  	<label><input type="checkbox" name="serviceType" value="Janitorial"/> janitorial</label>
-		    <label><input type="checkbox" name="serviceType" value="commercial"/> commercial</label>
-		    <label><input type="checkbox" name="serviceType" value="home"/> home</label>
-		    <label><input type="checkbox" name="serviceType" value="construction"/> construction</label>
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" email="email" id="email">
+		</div>
+		<div>
+			<label for="phone">Phone:</label>
+			<input type="phone" email="phone" id="phone">
+		</div>
+		<div class="options">
+			<p>What type of service are you seeking?</p>
+			<label><input type="checkbox" name="serviceType" value="Janitorial"/> janitorial</label>
+			<label><input type="checkbox" name="serviceType" value="commercial"/> commercial</label>
+			<label><input type="checkbox" name="serviceType" value="home"/> home</label>
+			<label><input type="checkbox" name="serviceType" value="construction"/> construction</label>
 		</div>
 
-	    	<input type="submit" value="submit">	    
+	    <input type="submit" value="submit">	    
 	</form>
 
 	<div id="aboutUs">
@@ -137,8 +139,10 @@
 		<p>We are committed to acting with honesty and integrity at all times in all aspects of our business to being professional in doing our job and to delivering a consistent, high-level quality of work that meets or exceeds our customers’ expectations. 
 		</p>
 	</div>
-<footer>
-	&copy Copyright 2016 SOScleaning.com | All Rights Reserved 
-</footer>
+	<footer>
+		&copy Copyright 2016 SOScleaning.com | All Rights Reserved 
+	</footer>
+	<script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
